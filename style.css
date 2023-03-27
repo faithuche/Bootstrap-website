@@ -1,0 +1,17 @@
+.header-container{
+    background-color: blue;
+    height: 400px;
+    background: url(https:/picsum.photos/200/300) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ms{
+    /* background-color: blueviolet; */
+   margin-left: 300px !important;
+}
+
+/* .row{
+    margin: 30% !important;
+    width:50%;
+} */
