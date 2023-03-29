@@ -14,9 +14,44 @@
     margin-top: 50px;
     justify-content: center;
 } */
+.row h5{
+  margin-top: 20px;
+}
 
+.testimonials{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.testimonials .testimonial-item img{
+  max-width:12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.container h2{
+  /* background-color: blue; */
+  height: 500px;
+  width: 100%;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+} 
 
 .showcase-img {
     min-height: 30rem;
     background-size: cover;
+}
+
+.call-to-action{
+  position: relative;
+  background-color:#343a40 ;
+  background: url(./images/bg-masthead.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.call-to-action:before{
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
 }
